@@ -44,25 +44,8 @@ Just for clarification, an item can never have its Quality increase
 above 50, however "Sulfuras" is a legendary item and as such its 
 Quality is 80 and it never alters.
 
-## Getting Started
+---
 
-Clone the repository. Run build.bat from Powershell. If you see 
-output similar to the following screenshot, you are ready to 
-start refactoring.
-
-![alt text](images/build_output.png "Good Build Output")
-
-## Who, What, Why?
-Who: [@TerryHughes](https://twitter.com/TerryHughes), [@NotMyself](https://twitter.com/NotMyself)
-
-What & Why: [Refactor This: The Gilded Rose Kata](http://iamnotmyself.com/2011/02/13/refactor-this-the-gilded-rose-kata/)
-
-## License
-
-MIT
-
-## Suggested attribution
-
-This work is by [@TerryHughes](https://twitter.com/TerryHughes), [@NotMyself](https://twitter.com/NotMyself)
+This kata was originally written by [@TerryHughes](https://twitter.com/TerryHughes), [@NotMyself](https://twitter.com/NotMyself)
 
 The repository can be found at [https://github.com/NotMyself/GildedRose](https://github.com/NotMyself/GildedRose)
