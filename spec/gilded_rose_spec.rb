@@ -6,7 +6,6 @@ describe GildedRose do
     it "does not change the name" do
       items = [Item.new("foo", 0, 0)]
       GildedRose.new(items).update_quality()
-      p items
       expect(items[0].name).to eq "foo"
     end
 
@@ -14,6 +13,12 @@ describe GildedRose do
       items = [Item.new("foo", 0, 0)]
       GildedRose.new(items).update_quality()
       expect(items[0].quality).to eq 0
+    end
+
+    it "lowers the quality by 2 when sell_in less than 0" do
+      items = [Item.new("foo", 0, 20)]
+      GildedRose.new(items).update_quality()
+      expect(items[0].quality).to eq 18
     end
 
   end
