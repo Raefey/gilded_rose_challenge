@@ -21,6 +21,12 @@ describe GildedRose do
       expect(items[0].quality).to eq 18
     end
 
+    it "increases the quality over time for aged brie" do
+      items = [Item.new("Aged Brie", 5, 0)]
+      GildedRose.new(items).update_quality()
+      expect(items[0].quality).to eq 1
+    end
+
   end
 
 end
